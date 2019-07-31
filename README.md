@@ -140,9 +140,9 @@ merged into the RFC repository as a markdown file. At that point the RFC is
     in full depth.
   - The FCP lasts ten calendar days, so that it is open for at least 5 business
     days. It is also advertised widely,
-    e.g. in [Transact Mailing List](https://lists.hyperledger.org/g/transact). This way all
-    stakeholders have a chance to lodge any final objections before a decision
-    is reached.
+    e.g. in [Transact Mailing List](https://lists.hyperledger.org/g/transact).
+    This way all stakeholders have a chance to lodge any final objections
+    before a decision is reached.
   - In most cases, the FCP period is quiet, and the RFC is either merged or
     closed. However, sometimes substantial new arguments or ideas are raised,
     the FCP is canceled, and the RFC goes back into development mode.
@@ -151,15 +151,15 @@ merged into the RFC repository as a markdown file. At that point the RFC is
 [The RFC life-cycle]: #the-rfc-life-cycle
 
 Once an RFC becomes "active" then authors may implement it and submit the
-change as a pull request to the corresponding Transact repo. Being "active" is not a rubber
-stamp, and in particular still does not mean the change will ultimately be
-merged; it does mean that in principle all the major stakeholders have agreed
-to the change and are amenable to merging it.
+change as a pull request to the corresponding Transact repo. Being "active" is
+not a rubber stamp, and in particular still does not mean the change will
+ultimately be merged; it does mean that in principle all the major stakeholders
+have agreed to the change and are amenable to merging it.
 
 Furthermore, the fact that a given RFC has been accepted and is "active"
 implies nothing about what priority is assigned to its implementation, nor does
-it imply anything about whether a Transact developer has been assigned the task of
-implementing the feature. While it is not *necessary* that the author of the
+it imply anything about whether a Transact developer has been assigned the task
+of implementing the feature. While it is not *necessary* that the author of the
 RFC also write the implementation, it is by far the most effective way to see
 an RFC through to completion: authors should not expect that other project
 developers will take on responsibility for implementing their accepted feature.
@@ -199,9 +199,9 @@ rationale for the decision.
 Some accepted RFCs represent vital changes that need to be implemented right
 away. Other accepted RFCs can represent changes that can wait until some
 arbitrary developer feels like doing the work. Every accepted RFC has an
-associated issue tracking its implementation in the Transact JIRA issue tracker; thus that
-associated issue can be assigned a priority via the triage process that the
-team uses for all issues related to Transact.
+associated issue tracking its implementation in the Transact JIRA issue
+tracker; thus that associated issue can be assigned a priority via the triage
+process that the team uses for all issues related to Transact.
 
 The author of an RFC is not obligated to implement it. Of course, the RFC
 author (like any other developer) is welcome to post an implementation for
@@ -235,4 +235,7 @@ http://www.apache.org/licenses/LICENSE-2.0)
 
 ### Contributions
 
-Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in the work by you, as defined in the Apache-2.0 license, shall be licensed as above, without any additional terms or conditions.
+Unless you explicitly state otherwise, any contribution intentionally
+submitted for inclusion in the work by you, as defined in the Apache-2.0
+license, shall be licensed as above, without any additional terms or
+conditions.
