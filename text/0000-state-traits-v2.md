@@ -98,7 +98,8 @@ to be defined by the implementor.
 The remaining core trait is `Reader`, which maintains the existing `get`
 function, but loses the `clone_box` function. It also includes the ability to
 iterate over values with an optional filter value (`Filter`). This replaces the
-need for the separate trait specific to merkle-radix state (Merkle
+need for the separate trait specific to merkle-radix state (the
+`MerkleRadixLeafReader` trait).
 
 ### Optional Trait
 
@@ -314,7 +315,7 @@ the unnecessary specificity.
 [drawbacks]: #drawbacks
 
 This RFC introduces a parallel set of traits, which requires parallel usages or
-implementations for the same set of functionality While this does introduce a
+implementations for the same set of functionality.  While this does introduce a
 new set of traits, if accepted, the previous traits may be deprecated and
 removed in future releases.
 
